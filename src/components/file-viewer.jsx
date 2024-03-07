@@ -56,6 +56,7 @@ class FileViewer extends Component {
       case "docx": {
         return DocxViewer;
       }
+      case "wav":
       case "mp3": {
         return AudioViewer;
       }
